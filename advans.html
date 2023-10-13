@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Расширенный поиск Google</title>
+</head>
+
+<body>
+    <div class="links">
+        <a href="images.html">Поиск изображений</a>
+        <a href="Glavnaya.html">Обычный поиск</a>
+    </div>
+    <div id="search-adv">
+        <form action="https://www.google.com/search?as_q=q&as_epq=r&as_oq=s&as_eq=t" method="get">
+            <div id="verd">
+                Найдите страницы с… «всеми этими словами:»<input class="search-input" type="text" name="as_q" placeholder="">
+            </div>
+            <div id="verd">
+                Найти страницы с… «это точное слово или фраза:»<input class="search-input" type="text" name="as_epq" placeholder="">
+            </div>
+            <div id="verd">
+                Найдите страницы с… «любым из этих слов:»<input class="search-input" type="text" name="as_oq" placeholder="">
+            </div>
+            <div id="verd">
+                Найдите страницы с… «ни одним из этих слов:»<input class="search-input" type="text" name="as_eq" placeholder="">
+            </div>
+            <button type="submit">Расширенный поиск</button>
+        </form>
+    </div>
+</body>
+
+</html>
